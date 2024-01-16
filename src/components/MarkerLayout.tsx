@@ -88,17 +88,6 @@ const MarkerLayout: React.FC<Props> = ({ marker }) => {
       draggable={true}
       ref={markerRef}
     >
-      <Popup>
-        <Button
-          variant="contained"
-          onClick={handleDelete}
-          sx={{
-            bgcolor: "#5b7bb2",
-          }}
-        >
-          Clear
-        </Button>
-      </Popup>
     </Marker>
   );
 };

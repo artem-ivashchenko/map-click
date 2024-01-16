@@ -40,14 +40,6 @@ const Header: React.FC = () => {
           <Typography variant="h6" component="div" >
             Map click
           </Typography>
-
-          <Button 
-            variant='contained' 
-            onClick={handleAllDelete}
-            sx={{ bgcolor: '#5b7bb2' }}
-          >
-            Clear all
-          </Button>
         </Toolbar>
       </AppBar>
     </Box>
