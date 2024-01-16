@@ -17,7 +17,7 @@ const CustomIcon = (number: number) =>
       <div class="icon-wrap">
         <img 
           class="image-icon"
-          src="geomarker.png"  
+          src="${process.env.PUBLIC_URL}/geomarker.png"  
         />
         <div class="text-icon">
           ${number}
